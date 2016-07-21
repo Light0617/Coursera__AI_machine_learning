@@ -1,0 +1,56 @@
+1.
+x y
+3 2
+1 2
+0 1
+4 3
+For the training set given above (note that this training set may also be referenced in other questions in this quiz), what is the value of m?
+
+m=4
+
+2.
+x y
+1 0.5
+2 1
+4 2
+0 0
+¿0=0,¿1=0.5
+
+3.
+Suppose we set ¿0=0,¿1=1.5 in the linear regression hypothesis from Q1. What is h¿(2)?
+
+0+1.5*2=3
+
+4. 
+In the given figure, the cost function J(£c0,£c1) has been plotted against £c0 and £c1, 
+as shown in 'Plot 2'. The contour plot for the same cost function is given in 'Plot 1'. 
+Based on the figure, choose the correct options (check all that apply).
+
+Point P (the global minimum of plot 2) corresponds to point A of Plot 1.
+
+If we start from point B, gradient descent with a well-chosen learning 
+rate will eventually help us reach at or near point A, as the value of
+cost function J(£c0,£c1) is minimum at A.
+
+5. (X)
+Suppose that for some linear regression problem (say, 
+predicting housing prices as in the lecture), we have some training set,
+and for our training set we managed to find some £c0, £c1 such that J(£c0,£c1)=0.
+Which of the statements below must then be true? (Check all that apply.)
+
+We can perfectly predict the value of y even for new examples that we have not yet seen.(X)
+
+For these values of £c0 and £c1 that satisfy J(£c0,£c1)=0,
+we have that h£c(x(i))=y(i) for every training example (x(i),y(i)) (O)
+
+
+For this to be true, we must have £c0=0 and £c1=0 so that h£c(x)=0 (X)
+
+6.Which of the following statements are true?
+
+If £c0 and £c1 are initialized at
+the global minimum, then one iteration will not change their values.(O)
+
+If the first few iterations of gradient descent cause f(£c0,£c1) to
+increase rather than decrease, then the most likely cause is that we have set the
+learning rate £\ to too large a value. (O)
